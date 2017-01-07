@@ -1,0 +1,47 @@
+C:\Users\akshay.waikar>git init
+Reinitialized existing Git repository in C:/Users/akshay.waikar/.git/
+
+C:\Users\akshay.waikar>git clone https://github.com/madhuridill/myrepo.git
+Cloning into 'myrepo'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\akshay.waikar>git init
+Reinitialized existing Git repository in C:/Users/akshay.waikar/.git/
+
+C:\Users\akshay.waikar>git clone https://github.com/madhuridill/repo.git
+Cloning into 'repo'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\akshay.waikar>
+C:\Users\akshay.waikar> git add MyHelloWorld.cls
+fatal: pathspec 'MyHelloWorld.cls' did not match any files
+
+C:\Users\akshay.waikar>git add C:\Users\akshay.waikar\repo
+
+C:\Users\akshay.waikar>git commit -m "REpo added"
+[master (root-commit) 05cc954] REpo added
+ 2 files changed, 2 insertions(+)
+ create mode 160000 SampleProject
+ create mode 160000 repo
+
+C:\Users\akshay.waikar>git push origin master
+Username for 'https://github.com': madhuridill
+Password for 'https://madhuridill@github.com':
+remote: Permission to akshaywaikar/HelloWorld.git denied to madhuridill.
+fatal: unable to access 'https://github.com/akshaywaikar/HelloWorld.git/': The r
+equested URL returned error: 403
+
+C:\Users\akshay.waikar>git push origin master
+Username for 'https://github.com': madhuridill
+Password for 'https://madhuridill@github.com':
+remote: Permission to akshaywaikar/HelloWorld.git denied to madhuridill.
+fatal: unable to access 'https://github.com/akshaywaikar/HelloWorld.git/': The r
+equested URL returned error: 403
+
+C:\Users\akshay.waikar>
+
+C:\Users\akshay.waikar>
+
+C:\Users\akshay.waikar>
